@@ -1,0 +1,188 @@
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,ul {
+    list-style: none;
+}
+
+blockquote,q {
+    quotes: none;
+}
+
+blockquote:before,blockquote:after,q:before,q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+@font-face {
+    font-family: "Aref";
+    src: url(fonts/WebYekan.woff) format("woff");
+}
+
+body {
+    background: #fcfcfc;
+    font-family: "Aref","Myriad Pro",Tahoma;
+    font-size: 14px;
+}
+
+*{
+    box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    -o-box-sizing:border-box;
+}
+
+.clearfix{
+	clear: both;
+}
+
+img{
+	max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.main {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.container {
+    width: 1100px;
+    margin: 0 auto;
+}
+
+.pull-right {
+    float: right;
+}
+
+.pull-left {
+    float: left;
+}
+
+.area-title{
+    text-align: center;
+}
+
+.area-title h2{
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: #2a4755
+}
+
+.area-title p{
+    padding: 10px 0;
+    color: #182d37
+}
+
+.masthead .top_menu {
+    width: 100%;
+    float: right;
+    background: #182d37;
+}
+
+.masthead .top_menu ul li {
+    display: inline-block;
+}
+
+.masthead .top_menu ul li a {
+    display: block;
+    padding: 15px 10px;
+    font-size: 12px;
+    color: #4c7d89;
+}
+
+.masthead .top_menu ul li a:hover,.masthead .main_menu ul li a:hover {
+    color: #8bc34a;
+}
+
+.masthead .main_menu {
+    width: 100%;
+    float: right;
+    background: #fff;
+}
+
+.masthead .main_menu ul li {
+    display: inline-block;
+}
+
+.masthead .main_menu ul li a {
+    display: block;
+    padding: 30px 10px;
+    color: #182d37;
+}
+
+.masthead .logo {
+    margin: 15px auto 0;
+}
+
+.gallery{
+	width: 100%;
+	float: right;
+}
+
+.gallery .gallery-item{
+	width: 25%;
+	float: right;
+}
+
+.gallery .gallery-item img{
+	float: right;
+}
+
+.team{
+    width: 100%;
+    float: right;
+    padding: 50px 0;
+    background: #fff;
+}
+
+.team .team-details{
+    width: 33.33%;
+    float: right;
+    padding: 15px;
+}
+
+.team .team-details img{
+    float: right;
+}
+
+.team .team-details .team-content{
+    float: right;
+    padding: 25px;
+    line-height: 25px;
+    background: #f4f5f9;
+}
+
+.team .team-details .team-content h2{
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: #8bc34a
+}
+
+.team .team-details .team-content p{
+    text-align: justify;
+    color: #555;
+}
